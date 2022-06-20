@@ -78,8 +78,8 @@ body{
 /*  ======================End Global Rules======================*/
 /*  ======================Start Landing======================*/
 .landing{
-    background: var(--card-landing-bgcolor);
-    background-image: url(banner.jpg);
+    background: var(--card-landing-bgcolor), url(banner.jpg);
+/*     background-image: url(banner.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
